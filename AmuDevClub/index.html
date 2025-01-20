@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mobile Card Guessing Game</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bungee+Spice&family=Macondo&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <div class="container">
+        <h1>AmuDevClub<br>Card Guessing Game<br>for Admins</h1>
+        <button id="admin-btn" class="btn">Admin</button>
+        <button id="player-btn" class="btn">Player</button>
+    </div>
+
+    <!-- Admin Login Modal -->
+    <div id="adminModal" class="modal">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <h2>Admin Login</h2>
+            <input type="password" id="adminPassword" placeholder="Enter Admin Password">
+            <button id="loginBtn" class="btn">Login</button>
+            <p id="errorMessage" class="error" style="display: none;">Incorrect Password!</p>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
